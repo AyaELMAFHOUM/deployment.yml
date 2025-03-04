@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: 'https://github.com/AyaELMAFHOUM/deployment.yml.git'
     targetRevision: HEAD
-    path: argo-cd
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: default
